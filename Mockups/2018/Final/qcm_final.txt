@@ -1,0 +1,40 @@
+1) If for the chi^2 statistics for a binary feature, we obtain P(chi^2| DF = 1) < 0.05 it means 
+	a. no conclusion can be drawn 
+	b. That class label is indepenent of feature 
+*	c. That class label correlates with the feature 
+	d. that the class labels depends on feature 
+
+2) Given a document collection, if we change the ordering of the words in the documents which of the following will not change ? 
+	a. All of them will change 
+	b. Singular values in Latent Semantic Indexing (LSI) 
+	c. Embedding vectors produced by word2vec
+*	d. entities extracted using a Hidden Markov model 
+	
+3) We want to return, from the posting lists below, the top-2 document matching a query using Fagin's algorithm with aggregation function taken as the of the tf-idf weights. 
+How many entries(total of both lists) are accessed in the first phase of the algorithm performing round robin starting at List 1 (i.e. before performaing the random access 
+
+List 1 : (d3,0.8), (d3,0.6), (d1,0.5), (d4,0.4) 
+List 2: (d1,0.8),(d3,0.6), (d4,0.5), (d2,0.4)
+	a. 6 
+*	b. 3 (d1, d2, d3)
+	c. 4
+	d. 5
+	
+4) In the physical representation of an inverted file, the size of the index file is typically in the order of (where n is the number of documents): 
+	a. O(log(n)) 
+	b. O(n**2) 
+	c. O(n) 
+*	d. O(sqrt(n)) 
+	
+5) Which is true about the use of entropy in decision tree induction 
+	a. Entropy of the set of class labels of the samples form the training set at the leaves level is always 0 
+*	b. We split on the attribute that has the lowest entropy 
+	c. We split on the attribute that has the highest entropy 
+	d. The entropy of the set of class labels of the samples from the trianing set at the leaf can be 1 
+	
+6) Given the 2-itemsets {1,2},{1,3},{1,5},{2,3},{2,5} when generating 3-itemset we will 
+	a. have 4 3-itemset after the join , 4 3-itemsets after the prune
+	b. have 3 3-itemset after the join , 3 3-itemsets after the prune
+	c. have 2 3-itemset after the join , 2 3-itemsets after the prune
+*	d. have 4 3-itemset after the join , 2 3-itemsets after the prune (123 // 125 // 135 // 235) => (123 // 125 left cuz no (3, 5))
+	
